@@ -3,36 +3,9 @@
     padding: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: #80A1A1;
+    box-sizing: border-box;
 }
 
-.header_section1{
-    display: flex;
-    height: 70PX;
-    justify-content: space-between;
-    background-color: #D9D9D9;
-    align-items: center;
-}
-
-.logo{
-    display: flex;
-    justify-content: space-between;
-}
-.header_section2{
-    display: flex;
-    height: 70PX;
-    justify-content: space-between;
-    background-color: #FFFBFB;
-    align-items: center;
-
-    }
-
-.tex_letra{
-    text-decoration: none;
-    color: black;
-    padding: 0.75rem;
-    background-color:#D9D9D9;
-    border-radius: 20px;
-}
 .imagenprincipalmain{
     background-image: url(../assets/foto_de_2_chicas.jpg);
     height: 300px;
@@ -48,62 +21,6 @@
     border-radius: 20px;
 
 }
-.main-setion1{
-    display: block;
-    text-decoration: none;
-    padding: 0.75rem;
-    background-color: #FFFBFB;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.main-setion2{
-    display: block;
-    text-decoration: none;
-    padding: 0.75rem;
-    background-color: #FFFBFB;
-    align-items: center;
-    justify-content: space-between;
-    height: 200px;
-    width: 100%;
-    background-size: auto;
-}
-.buscar-marca{
-    text-decoration: none;
-    color: black;
-    padding: 0.20rem;
-    background-color:#f3eded;
-    border-radius: none;
-
-}
-.main-setion3{
-    display: block;
-    text-decoration: none;
-    padding: 0.75rem;
-    background-color: #D9D9D9;
-    align-items: center;
-    justify-content: space-between;
-    height: 200px;
-    width: 100%;
-    background-size: auto;
-}
-.consultas{
-    text-decoration: none;
-    color: black;
-    padding: 0.20rem;
-    border-radius: none;
-
-}
-
-.footer{
-    display: flex;
-    height: 70PX;
-    justify-content: space-between;
-    background-color: #b61515;
-    align-items: center;
-
-}
 
 .imagenprincipalmainfondorojo{
     background-image: url(../assets/campera_amarilla.jpg);
@@ -112,16 +29,11 @@
     background-size: cover;
 
 }
-.imagenprincipalmainfondorojovender{
-    background-image: url(../assets/campera_amarilla.jpg);
-    height: 300px;
-    width: 100%;
-    background-size: cover;
 
-}
 .Section1vender{
     display: flex;
-    height: 170PX;
+    height: 300px;
+    width: 100%;
     justify-content: space-between;
     background-color: #f3eded;
     align-items: center;
@@ -142,4 +54,19 @@
     width: 100%;
     background-size: cover;
     border: #80A1A1;
+}
+
+.container{
+    width: 28%;
+    margin: auto;
+    background: url(../assets/campera_amarilla.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px 33px 67px;
+    border-top: 6px solid #f3eded;
+}
+
+.row{
+    display: flexbox;
+    flex: w0;
 }
