@@ -19,7 +19,6 @@
     padding: 0.75rem;
     background-color:#80A1A1;
     border-radius: 20px;
-
 }
 
 .imagenprincipalmainfondorojo{
@@ -45,9 +44,9 @@
     height: 700px;
     width: 100%;
     background-size: cover;
-
-
 }
+
+
 .imagenprincipalmaincamperaamrillanuestra{
     background-image: url(../assets/campera_amarilla.jpg);
     height: 700px;
@@ -66,7 +65,37 @@
     border-top: 6px solid #f3eded;
 }
 
-.row{
-    display: flexbox;
-    flex: w0;
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footer1{
+    padding: 2rem;
+   
+}
+
+.footer2{
+    padding: 2rem;
+   
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+.slide{
+    width: 80% !important;
+    justify-content: center;
+   
+}
+@media (max-width: 500px ){
+    .footer{
+        background-color: #d9d6d6;
+        
+    }
 }
